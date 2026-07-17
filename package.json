@@ -1,1 +1,7 @@
-Hola
+{
+  "name": "test-extension-vscode",
+  "version": "1.0.0",
+  "bin": {
+    "test-extension-vscode": "./index.js"
+  }
+}
