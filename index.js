@@ -1,4 +1,10 @@
-
 #!/usr/bin/env node
 
-console.log("✅ Hello from the downloaded package!");
+const fs = require("fs");
+
+fs.writeFileSync(
+    "demo.log",
+    "The downloaded package was executed.\n"
+);
+
+console.log("demo.log created");
